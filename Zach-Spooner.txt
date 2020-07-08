@@ -123,21 +123,29 @@
         A: Add --> Commit --> Push
         A: Creat a pull request on github to submit work done in git.
         A: Make sure to use our student fork
-        A: Make TL reviewer for pull.
+        B: Make TL reviewer for pull.
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
         A: inline elements don't start on new lines and only occupy the width they require. Can't set width/height values.
-        A: block elements and they do start on new lines and occupy full width available. Can set width/height values.
+        B: block elements and they do start on new lines and occupy full width available. Can set width/height values.
 
     2. What happens when an element is positioned absolutely? 
         A: It sets on its own layer seperate from everything else. It doesn't exist on normal document layout.
 
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
-    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+        A:
 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        A: <address>, <div>, <h1-h6> are display blocks by default.
+        B: <img> and <span> are display inline by default.
+        C: <button> is an element that is inline-block by default.
+
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+        A: The box model is the rule set that determines how a CSS element's sizes are calculated as you add padding, borders, and margins around the content.
+        B: The problem with the model is that it takes element dimensions you've created and puts padding and borders on top. You have to do some adjustment math to make up for the padding and borders.
+        C: The fix for the box-model is called box-sizing: border-box. This includes padding and borders in the element's width.
 
 
    --> 
